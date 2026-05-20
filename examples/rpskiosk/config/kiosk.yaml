@@ -2,12 +2,12 @@ include:
   file: trixie-minbase-ab.yaml
 
 device:
-  hostname: rps-kioks-test
+  hostname: rps-kiosk-test
   user1: rps
   user1sudo: nopasswd
 
 image:
-  system_part_size: 1500M # Cage + wayland + chromium + deps
+  system_part_size: 2500M # Cage + wayland + chromium + deps
   name: mykioskimage
 
 layer:
